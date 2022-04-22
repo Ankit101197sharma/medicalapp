@@ -1,0 +1,41 @@
+.contactDetails{
+    width: 100%;
+    margin: auto;
+}
+.contactDetailsImg{
+    width: 100%;
+   
+}
+img{
+    height: 250px;
+    left: 0;
+    top: 0;
+    position: relative;
+    object-position: 50% 14.05%;
+    background-position: 50% 14.05%;
+    object-fit: cover;
+    display: block;
+    /* vertical-align: middle; */
+    overflow: hidden;
+    background-size: cover;
+    width: 100%;
+}
+.contactdiv1{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.contactdiv1 h3{
+    font-weight: 500;
+    font-size: 2.25rem;
+    line-height: 1.1;
+  
+    
+    color: #234152;
+   
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+}

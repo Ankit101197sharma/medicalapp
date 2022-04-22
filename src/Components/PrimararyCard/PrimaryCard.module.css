@@ -1,0 +1,25 @@
+.PrimaryCard{
+    background-image: linear-gradient(0deg, rgba(5, 74,113,0.45), rgba(5,74,113,0.45)), url("https://images01.nicepage.com/b3/da/b3da07dba4061211b19f5e2aa6b3abda.jpeg");
+    background-position: 50% 50%;
+   background-size: cover;
+   object-fit: cover;
+   /* vertical-align: middle; */
+   display: block;
+   height: 400px;
+   margin: auto;
+
+}
+.contentDiv{
+    padding-top: 120px;
+    width: 55%;
+    margin: auto;
+    color: #fff;
+}
+.contentDiv h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+}
+.contentDiv p{
+    margin: 20px 20px 28px;
+}

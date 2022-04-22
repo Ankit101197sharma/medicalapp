@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+
 import './App.css';
+import TopSection from './Components/TopSection/TopSection';
+import PrimaryCard from './Components/PrimararyCard/PrimaryCard';
+import AppointmentCard from './Components/AppointmentCard/AppointmentCard';
+import GridCard from './Components/GridCard/GridCard';
+import OurTeam from './Components/OurTeam/OurTeam';
+import ContactDetails from './Components/ContactDetails/ContactDetails';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TopSection/>
+      <PrimaryCard/>
+      <AppointmentCard/>
+      <GridCard/>
+      <OurTeam/>
+      <ContactDetails/>
+      <Footer/>
     </div>
   );
 }

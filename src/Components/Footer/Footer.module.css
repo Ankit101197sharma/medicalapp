@@ -1,0 +1,15 @@
+.footerDiv{
+    color: #ffffff;
+    background-color: #333333;
+    text-align: center;
+    padding: 1em;
+}
+.footerText{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.footerText a{
+    text-decoration: underline;
+    color: #9ce4fb;
+}

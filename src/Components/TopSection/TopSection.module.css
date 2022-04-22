@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Karma&family=Licorice&family=Open+Sans:ital@1&family=Oswald&family=Poppins&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logoImg{
+    width: 88px;
+    height:88px;
+}
+
+.topSection{
+ background-color: #f2f2f2;
+ width: 100%;
+
+}
+
+.mainDiv00{
+    margin: auto;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.contactDiv0{
+    text-align: right;
+    margin: 14px;
+}
+.iconDiv{
+    font-size: 32px;
+    color: #ccc;
+    margin-top: 14px;
+}
+.contactDiv0 h1{
+    font-size: 32px;
+}
+.contactDiv0 p{
+    margin-top: 12px;
+    font-style: italic;
+    font-size: 14px;
+}
+.nameDiv{
+    margin: 14px;
+    text-align: left;
+}
+.nameDiv h3{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+}
+.nameDiv p{
+    font-style: italic;
+   
+}
+.landingDiv{
+    background-image: url("https://images01.nicepage.com/69/c6/69c67a74cb845b7ac2b9bcd320780281.png");
+    background-size: cover;
+    height: 500px;
+    width: 88%;
+    margin: auto;
+}
+.posterHead{
+    margin: 40px 20px 20px 40px;
+    font-weight: 400;
+    text-align: left;
+    width: 400px;
+
+    
+  
+}
+.posterHead h1{
+    padding-top: 120px;
+    line-height: 4rem;
+     color: #234152;
+     font-size:4rem ;
+     font-family: 'Oswald', sans-serif;
+     font-weight: 200;
+     margin-bottom: 14px;
+    
+}
+.cards{
+   
+    width:100%;
+    height:100%;
+   
+    text-align: left;
+}
+.imgGrid{
+    width: calc(33% - 30px);
+    margin: 10px;
+    justify-content: center;
+   
+}
+.servicePara{
+    padding: 20px;
+}
+
+.mainDiv{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 64px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+   
+ 
+}
+
+.aCard{
+    
+    max-width: 990px;
+   
+}
+.aCard h2{
+    font-weight: 500;
+    font-size: 1.875rem;
+   margin: 10px;
+    color: #234152;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 20px;
+
+}
+.serviceText{
+    margin-bottom: 10px;
+}
+.imgd4{
+    width: 100px;
+    height: 100px;
+   
+    object-fit: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+    border: 4px solid #48bdd7;
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+   padding: 0;
+   margin: auto;
+    
+    
+}
+.imgd5{
+    width: auto;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+@media (max-width: 990px) {
+    .imgGrid {
+      width: calc(33.33% - 22px)
+    }
+    
+  }
+  
+  @media (max-width: 768px) {
+    .imgGrid{
+      width: calc(50% - 22px);
+    }
+    
+  }
+  
+  @media (max-width: 400px) {
+    .imgGrid {
+      width: 100% ;
+    }
+    .footer{
+        width: (100%) ;
+    }
+  }
+  @media (max-width: 900px){
+    .footerDiv{
+        width: calc(33.3% - 22px);
+        justify-content: left;
+    }
+  }
+  @media (max-width: 768px ){
+    .footerDiv{
+        width: calc(50% - 22px);
+        justify-content: start;
+    }
+  }
+  @media (max-width: 400px){
+    .footerDiv{
+        width: (100%);
+       justify-content: left;
+        
+    }
+  }
